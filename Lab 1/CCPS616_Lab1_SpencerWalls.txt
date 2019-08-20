@@ -1,0 +1,16 @@
+CCPS616 - Lab 1 – Spencer Walls
+Each result is the average (in ms) of 10 trials
+
+n =      5e2                 1e3                 5e3                 1e4                 5e4
+Sel      0.000               1.563              31.242             129.657            3226.432
+Merge    0.000               0.000               0.000               3.124               9.373
+
+MergeSel
+x = 4    0.000               0.000               1.562               1.562               7.810
+x = 5    0.000               0.000               0.000               1.562               7.813
+x = 6    0.000               0.000               1.562               0.000               6.248
+x = 7    0.000               0.000               0.000               1.562               9.373
+x = 8    0.000               0.000               1.562               1.562               7.811
+
+
+Based on this, MergeSel performed best (for n = 5e4) when x = 6
